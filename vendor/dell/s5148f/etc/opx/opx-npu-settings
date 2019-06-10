@@ -1,1 +1,2 @@
 OPX_SAI_PROFILE_FILE=/etc/opx/sai/sai-profile.ini
+XP_ROOT=/usr/lib/cavium/xdk

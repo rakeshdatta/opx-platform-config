@@ -19,7 +19,7 @@ permissions and limitations under the License.
     <key id="hwCfgPath" value="/usr/lib/cavium/xdk/platform"/>
     <key id="profileNum" value="12"/>
     <key id="SAI_ACL_TYPE_READ_FILE" value="policy_ingress_acl_table_mapping.txt"/>
-    <key id="scpuFwFile" value="/usr/lib/cavium/xp-tools/xp70FirmwareA1.bin"/>
+    <key id="scpuFwFile" value="/usr/lib/cavium/xp-tools/xp70FirmwareA1_Rev1.bin"/>
     <key id="enableScpuFw" value="1"/>
     <key id="z80ANFwFile" value="/usr/lib/cavium/xp-tools/xp70Tv80AutoNegStateMachine.ihx.mem"/>
 </switch_npu_profile>
@@ -54,4 +54,6 @@ permissions and limitations under the License.
         </pool>
     </stage>
 </switch_acl_profile>
+<switch_multicast_config l2mc_vlan_port_lookup_enabled="1" />
+<switch_ecmp default_max_ecmp_per_grp="64"/>
 </switch_config>
